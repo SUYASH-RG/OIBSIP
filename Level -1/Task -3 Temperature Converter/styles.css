@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to right, #000000, #2b52be);
+  background-image: url("/image/Weathers.jpg");
+}
+
+.converter {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select,
+input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: calc(100% - 22px);
+  cursor: pointer;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#result {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  color: #333;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .converter {
+    width: 90%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+h2 {
+  color: #333;
+  animation: fadeIn 1s ease-in-out;
+}

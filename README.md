@@ -3,6 +3,7 @@ Oasis Infobyte - Internship Project completion
 This repository showcases the completion of tasks assigned during my internship at Oasis Infobyte. I opted for Level-2 projects, which challenged me to demonstrate my skills in front-end development.
 
 The repository contains three projects:
+
 1. Landing Page
 A responsive landing page built using HTML, CSS, and creative design principles. This project highlights my proficiency in front-end development and user interface design.
 
